@@ -1,0 +1,144 @@
+.vehicle-section {
+  background-color: #f1f5f9;
+}
+
+.vehicles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+@media (max-width: 1024px) {
+  .vehicles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .vehicles-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+.vehicle-card {
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--light-border);
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
+
+.vehicle-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(11, 19, 43, 0.14);
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+.vehicle-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #0b132b;
+  overflow: hidden;
+}
+
+.vehicle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.vehicle-card:hover .vehicle-image {
+  transform: scale(1.05);
+}
+
+.vehicle-category-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(11, 19, 43, 0.85);
+  backdrop-filter: blur(8px);
+  color: #fbbf24;
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.vehicle-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.vehicle-title-row {
+  margin-bottom: 10px;
+}
+
+.vehicle-name {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.vehicle-description {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 18px;
+  min-height: 48px;
+}
+
+.vehicle-availability-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f8fafc;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed #cbd5e1;
+  margin-bottom: 22px;
+}
+
+.availability-icon {
+  color: var(--accent-emerald);
+}
+
+.availability-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+/* Card CTA Stack */
+.vehicle-cta-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.vehicle-btn-enquire {
+  width: 100%;
+}
+
+.vehicle-direct-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.vehicle-btn-call,
+.vehicle-btn-whatsapp {
+  width: 100%;
+}
