@@ -13,11 +13,11 @@ export const FloatingContactBar: React.FC<FloatingContactBarProps> = ({ onOpenEn
       {/* Desktop Floating Action Buttons */}
       <div className="floating-actions-desktop">
         <a
-          href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Tourist, I would like to enquire about vehicle booking.')}`}
+          href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about vehicle booking.')}`}
           target="_blank"
           rel="noopener noreferrer"
           className="floating-btn floating-whatsapp"
-          aria-label="Chat with Balaji Tourist on WhatsApp"
+          aria-label="Chat with BTP on WhatsApp"
         >
           <MessageCircle size={26} />
           <span className="floating-tooltip">WhatsApp Us</span>
@@ -26,7 +26,7 @@ export const FloatingContactBar: React.FC<FloatingContactBarProps> = ({ onOpenEn
         <a
           href={businessInfo.phoneTel}
           className="floating-btn floating-call"
-          aria-label="Call Balaji Tourist"
+          aria-label="Call BTP"
         >
           <Phone size={24} />
           <span className="floating-tooltip">Call {businessInfo.phone}</span>
@@ -45,7 +45,7 @@ export const FloatingContactBar: React.FC<FloatingContactBarProps> = ({ onOpenEn
         </a>
 
         <a
-          href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Tourist, I would like to enquire about booking a vehicle in Bangalore.')}`}
+          href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about booking a vehicle in Bangalore.')}`}
           target="_blank"
           rel="noopener noreferrer"
           className="mobile-bar-btn mobile-whatsapp-btn"

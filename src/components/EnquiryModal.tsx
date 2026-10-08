@@ -51,7 +51,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
   if (!isOpen) return null;
 
   const getWhatsAppMessage = () => {
-    const text = `*New Travel Enquiry - Balaji Tourist*
+    const text = `*New Travel Enquiry - BTP*
 • Name: ${name || 'Traveler'}
 • Phone: ${phone || 'Not provided'}
 • Service: ${service}
@@ -113,7 +113,7 @@ Location: Bangalore, Karnataka, India`;
                 <div className="modal-logo-badge">
                   <img
                     src="/images/logo.png"
-                    alt="Balaji Tourist Logo"
+                    alt="BTP Logo"
                     className="modal-logo-img"
                   />
                 </div>

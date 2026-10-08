@@ -1,5 +1,5 @@
 export const businessInfo = {
-  name: "Balaji Tourist",
+  name: "BTP",
   phone: "+91 9035018855",
   phoneRaw: "+919035018855",
   phoneTel: "tel:+919035018855",
@@ -12,7 +12,7 @@ export const businessInfo = {
 };
 
 export const heroContent = {
-  eyebrow: "BALAJI TOURIST • BANGALORE",
+  eyebrow: "BTP • BANGALORE",
   heading: "EXPLORE BANGALORE. TRAVEL BEYOND.",
   supportingText:
     "Comfortable tourist transportation from Bangalore for city sightseeing, family journeys and outstation travel.",
@@ -42,9 +42,9 @@ export const heroHighlights = [
 export const aboutContent = {
   heading: "YOUR BANGALORE TOURIST TRAVEL PARTNER",
   paragraph1:
-    "Balaji Tourist provides tourist transportation services in Bangalore with vehicle options including Toyota Innova, Toyota Etios and Maruti Suzuki Swift Dzire.",
+    "BTP provides tourist transportation services in Bangalore with vehicle options including Toyota Innova, Toyota Etios and Maruti Suzuki Swift Dzire.",
   paragraph2:
-    "Whether you're exploring Bangalore or planning a journey outside the city, contact Balaji Tourist to enquire about vehicle availability and travel requirements.",
+    "Whether you're exploring Bangalore or planning a journey outside the city, contact BTP to enquire about vehicle availability and travel requirements.",
 };
 
 export const servicesContent = {
@@ -85,7 +85,7 @@ export const servicesContent = {
 };
 
 export const sightseeingContent = {
-  heading: "EXPLORE BANGALORE WITH BALAJI TOURIST",
+  heading: "EXPLORE BANGALORE WITH BTP",
   supportingText:
     "Discover Bangalore comfortably with a tourist vehicle suited to your travel requirements.",
   ctaText: "Enquire for Bangalore Sightseeing",

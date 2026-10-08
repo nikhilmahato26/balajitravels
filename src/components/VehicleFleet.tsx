@@ -10,7 +10,7 @@ interface VehicleFleetProps {
 
 export const VehicleFleet: React.FC<VehicleFleetProps> = ({ onOpenEnquiry }) => {
   const getWhatsAppVehicleLink = (v: Vehicle) => {
-    const text = `Hello Balaji Tourist, I would like to enquire about the availability of ${v.name} for travel in Bangalore / outstation. Please let me know details.`;
+    const text = `Hello BTP, I would like to enquire about the availability of ${v.name} for travel in Bangalore / outstation. Please let me know details.`;
     return `${businessInfo.whatsappUrl}?text=${encodeURIComponent(text)}`;
   };
 
@@ -71,7 +71,7 @@ export const VehicleFleet: React.FC<VehicleFleetProps> = ({ onOpenEnquiry }) => 
                     <a
                       href={businessInfo.phoneTel}
                       className="btn btn-call btn-sm vehicle-btn-call"
-                      aria-label={`Call Balaji Tourist for ${vehicle.name}`}
+                      aria-label={`Call BTP for ${vehicle.name}`}
                     >
                       <Phone size={15} />
                       <span>Call Now</span>

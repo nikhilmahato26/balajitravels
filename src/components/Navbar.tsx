@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               <span>{businessInfo.phone}</span>
             </a>
             <a
-              href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Tourist, I would like to enquire about vehicle availability for travel in Bangalore / Karnataka.')}`}
+              href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about vehicle availability for travel in Bangalore / Karnataka.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="top-bar-item top-bar-whatsapp"
@@ -82,12 +82,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
             href="#hero"
             onClick={(e) => handleNavClick(e, 'hero')}
             className="brand-logo"
-            aria-label="Balaji Tourist Home"
+            aria-label="BTP Home"
           >
             <div className="brand-logo-badge">
               <img
                 src="/images/logo.png"
-                alt="Balaji Tourist Logo"
+                alt="BTP Logo"
                 className="brand-logo-img"
               />
             </div>
@@ -120,7 +120,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
 
           {/* Header Action Buttons */}
           <div className="header-actions">
-            <a href={businessInfo.phoneTel} className="btn-header-call" aria-label="Call Balaji Tourist">
+            <a href={businessInfo.phoneTel} className="btn-header-call" aria-label="Call BTP">
               <Phone size={16} />
               <span>{businessInfo.phone}</span>
             </a>
@@ -147,7 +147,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               <div className="brand-logo-badge">
                 <img
                   src="/images/logo.png"
-                  alt="Balaji Tourist Logo"
+                  alt="BTP Logo"
                   className="brand-logo-img"
                 />
               </div>
@@ -169,7 +169,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                 Discover Karnataka
               </a>
               <a href="#about" onClick={(e) => handleNavClick(e, 'about')} className="mobile-nav-link">
-                About Balaji Tourist
+                About BTP
               </a>
               <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')} className="mobile-nav-link">
                 Contact &amp; Location
@@ -191,7 +191,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                 <span>Call {businessInfo.phone}</span>
               </a>
               <a
-                href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Tourist, I would like to enquire about vehicle booking.')}`}
+                href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about vehicle booking.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp full-width"

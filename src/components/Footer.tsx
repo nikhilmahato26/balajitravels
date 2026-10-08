@@ -43,7 +43,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
               <div className="footer-logo-badge">
                 <img
                   src="/images/logo.png"
-                  alt="Balaji Tourist Logo"
+                  alt="BTP Logo"
                   className="footer-logo-img"
                 />
               </div>
@@ -106,7 +106,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenEnquiry }) => {
                 <span>{businessInfo.phone}</span>
               </a>
               <a
-                href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Tourist, I would like to enquire about vehicle booking.')}`}
+                href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about vehicle booking.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-contact-item footer-c-link footer-whatsapp-link"
