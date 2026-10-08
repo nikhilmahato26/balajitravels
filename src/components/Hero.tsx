@@ -12,8 +12,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
     <section id="hero" className="hero-section">
       <div className="hero-background-wrapper">
         <img
-          src="/images/hero_banner.jpg"
-          alt="Toyota Innova tourist car on scenic road near Bangalore"
+          src="/images/hero_balaji.jpg"
+          alt="Lord Balaji divine golden temple sanctum"
           className="hero-bg-image"
           fetchPriority="high"
         />

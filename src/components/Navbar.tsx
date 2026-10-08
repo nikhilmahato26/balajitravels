@@ -91,10 +91,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                 className="brand-logo-img"
               />
             </div>
-            <div className="brand-text">
-              <span className="brand-name">{businessInfo.name}</span>
-              <span className="brand-tagline">Bangalore Tourist Transportation</span>
-            </div>
           </a>
 
           {/* Desktop Navigation */}
@@ -154,10 +150,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                   alt="Balaji Tourist Logo"
                   className="brand-logo-img"
                 />
-              </div>
-              <div className="brand-text">
-                <span className="brand-name">{businessInfo.name}</span>
-                <span className="brand-tagline">Bangalore Tourist Transportation</span>
               </div>
             </div>
             <div className="mobile-nav-links">
