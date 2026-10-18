@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-import { BookingWidget } from './components/BookingWidget';
+import { TirupatiPackage } from './components/TirupatiPackage';
 import { HeroHighlights } from './components/HeroHighlights';
 import { VehicleFleet } from './components/VehicleFleet';
 import { ServicesSection } from './components/ServicesSection';
@@ -24,7 +24,8 @@ export function App() {
       if (
         initialData === 'Toyota Innova' ||
         initialData === 'Toyota Etios' ||
-        initialData === 'Maruti Suzuki Swift Dzire'
+        initialData === 'Maruti Suzuki Swift Dzire' ||
+        initialData === 'Luxury Volvo / AC Sleeper Bus'
       ) {
         setSelectedVehicle(initialData);
         setSelectedService(undefined);
@@ -53,10 +54,10 @@ export function App() {
 
       <main>
         {/* Hero Section */}
-        <Hero onOpenEnquiry={() => handleOpenEnquiry()} />
+        <Hero onOpenEnquiry={() => handleOpenEnquiry('Tirupati Darshan Package')} />
 
-        {/* Quick Travel Booking / Enquiry Widget */}
-        <BookingWidget />
+        {/* Top Priority Tirupati Darshan Package (Replaced Form in Hero) */}
+        <TirupatiPackage onOpenEnquiry={(pkg) => handleOpenEnquiry(pkg || 'Tirupati Darshan Package')} />
 
         {/* 4 Feature Highlights */}
         <HeroHighlights />

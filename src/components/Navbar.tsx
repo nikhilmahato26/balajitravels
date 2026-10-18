@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               <span>{businessInfo.phone}</span>
             </a>
             <a
-              href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about vehicle availability for travel in Bangalore / Karnataka.')}`}
+              href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Trip, I would like to enquire about vehicle availability for travel in Bangalore / Karnataka.')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="top-bar-item top-bar-whatsapp"
@@ -82,12 +82,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
             href="#hero"
             onClick={(e) => handleNavClick(e, 'hero')}
             className="brand-logo"
-            aria-label="BTP Home"
+            aria-label="Balaji Trip Home"
           >
             <div className="brand-logo-badge">
               <img
                 src="/images/logo.png"
-                alt="BTP Logo"
+                alt="Balaji Trip Logo"
                 className="brand-logo-img"
               />
             </div>
@@ -97,6 +97,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           <nav className="desktop-nav" aria-label="Main Navigation">
             <a href="#hero" onClick={(e) => handleNavClick(e, 'hero')} className="nav-link">
               Home
+            </a>
+            <a
+              href="#tirupati-package"
+              onClick={(e) => handleNavClick(e, 'tirupati-package')}
+              className="nav-link nav-link-tirupati"
+            >
+              Tirupati Package ✨
             </a>
             <a href="#vehicles" onClick={(e) => handleNavClick(e, 'vehicles')} className="nav-link">
               Vehicles
@@ -120,7 +127,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
 
           {/* Header Action Buttons */}
           <div className="header-actions">
-            <a href={businessInfo.phoneTel} className="btn-header-call" aria-label="Call BTP">
+            <a href={businessInfo.phoneTel} className="btn-header-call" aria-label="Call Balaji Trip">
               <Phone size={16} />
               <span>{businessInfo.phone}</span>
             </a>
@@ -147,7 +154,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
               <div className="brand-logo-badge">
                 <img
                   src="/images/logo.png"
-                  alt="BTP Logo"
+                  alt="Balaji Trip Logo"
                   className="brand-logo-img"
                 />
               </div>
@@ -155,6 +162,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
             <div className="mobile-nav-links">
               <a href="#hero" onClick={(e) => handleNavClick(e, 'hero')} className="mobile-nav-link">
                 Home
+              </a>
+              <a
+                href="#tirupati-package"
+                onClick={(e) => handleNavClick(e, 'tirupati-package')}
+                className="mobile-nav-link mobile-link-tirupati"
+              >
+                Tirupati Darshan Package ✨
               </a>
               <a href="#vehicles" onClick={(e) => handleNavClick(e, 'vehicles')} className="mobile-nav-link">
                 Our Vehicles
@@ -169,7 +183,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                 Discover Karnataka
               </a>
               <a href="#about" onClick={(e) => handleNavClick(e, 'about')} className="mobile-nav-link">
-                About BTP
+                About Balaji Trip
               </a>
               <a href="#contact" onClick={(e) => handleNavClick(e, 'contact')} className="mobile-nav-link">
                 Contact &amp; Location
@@ -191,7 +205,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
                 <span>Call {businessInfo.phone}</span>
               </a>
               <a
-                href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello BTP, I would like to enquire about vehicle booking.')}`}
+                href={`${businessInfo.whatsappUrl}?text=${encodeURIComponent('Hello Balaji Trip, I would like to enquire about vehicle booking.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-whatsapp full-width"

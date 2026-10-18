@@ -17,7 +17,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
             <div className="about-image-card">
               <img
                 src="/images/vidhana_soudha.jpg"
-                alt="BTP Bangalore transportation partner"
+                alt="Balaji Trip Bangalore transportation partner"
                 className="about-main-img"
                 loading="lazy"
               />
@@ -25,7 +25,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
                 <div className="about-logo-badge">
                   <img
                     src="/images/logo.png"
-                    alt="BTP Logo"
+                    alt="Balaji Trip Logo"
                     className="about-logo-img"
                   />
                 </div>

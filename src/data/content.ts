@@ -1,5 +1,5 @@
 export const businessInfo = {
-  name: "BTP",
+  name: "Balaji Trip",
   phone: "+91 9035018855",
   phoneRaw: "+919035018855",
   phoneTel: "tel:+919035018855",
@@ -12,7 +12,7 @@ export const businessInfo = {
 };
 
 export const heroContent = {
-  eyebrow: "BTP • BANGALORE",
+  eyebrow: "BALAJI TRIP • BANGALORE",
   heading: "EXPLORE BANGALORE. TRAVEL BEYOND.",
   supportingText:
     "Comfortable tourist transportation from Bangalore for city sightseeing, family journeys and outstation travel.",
@@ -42,9 +42,9 @@ export const heroHighlights = [
 export const aboutContent = {
   heading: "YOUR BANGALORE TOURIST TRAVEL PARTNER",
   paragraph1:
-    "BTP provides tourist transportation services in Bangalore with vehicle options including Toyota Innova, Toyota Etios and Maruti Suzuki Swift Dzire.",
+    "Balaji Trip provides tourist transportation services in Bangalore with vehicle options including Toyota Innova, Toyota Etios and Maruti Suzuki Swift Dzire.",
   paragraph2:
-    "Whether you're exploring Bangalore or planning a journey outside the city, contact BTP to enquire about vehicle availability and travel requirements.",
+    "Whether you're exploring Bangalore or planning a journey outside the city, contact Balaji Trip to enquire about vehicle availability and travel requirements.",
 };
 
 export const servicesContent = {
@@ -85,7 +85,7 @@ export const servicesContent = {
 };
 
 export const sightseeingContent = {
-  heading: "EXPLORE BANGALORE WITH BTP",
+  heading: "EXPLORE BANGALORE WITH BALAJI TRIP",
   supportingText:
     "Discover Bangalore comfortably with a tourist vehicle suited to your travel requirements.",
   ctaText: "Enquire for Bangalore Sightseeing",
@@ -157,3 +157,73 @@ export const karnatakaContent = {
     },
   ],
 };
+
+export const tirupatiPackage = {
+  eyebrow: "⚡ TOP PRIORITY PILGRIMAGE PACKAGE",
+  title: "Tirupati Darshan Package From Bangalore",
+  subtitle: "With Balaji Trip ✨",
+  includesHeading: "Package Includes",
+  inclusions: [
+    {
+      icon: "🛕",
+      title: "Balaji & Padmavati Darshan (4–5 Hrs)",
+      description: "Hassle-free guided VIP darshan assistance of Lord Venkateshwara & Padmavati Ammavari Temple.",
+    },
+    {
+      icon: "🚌",
+      title: "Luxury A/C Sleeper & Volvo Bus",
+      description: "Modern Multi-Axle Volvo & luxury A/C sleeper coaches with pushback seats and smooth air suspension.",
+    },
+    {
+      icon: "🏨",
+      title: "3★ Hotel Fresh-Up Stay",
+      description: "Clean, hygienic and comfortable 3-star hotel rooms in Tirupati for fresh-up and changing before darshan.",
+    },
+    {
+      icon: "🍛",
+      title: "Unlimited Breakfast & Lunch",
+      description: "Wholesome, hygienic pure vegetarian morning breakfast and authentic South Indian lunch included.",
+    },
+    {
+      icon: "🎁",
+      title: "1 Laddu Prasadam Included",
+      description: "Direct official sacred Tirupati Balaji Temple Laddu Prasadam provided for each pilgrim.",
+    },
+  ],
+  boardingTitle: "Boarding Points (8 PM – Ananda Rao Circle)",
+  boardingRoute: "Indiranagar | Tin Factory | ITI Gate | KR Puram | Hoskote",
+  boardingPointsList: [
+    { point: "Ananda Rao Circle (Main Pickup)", time: "8:00 PM" },
+    { point: "Indiranagar", time: "8:30 PM" },
+    { point: "Tin Factory", time: "8:50 PM" },
+    { point: "ITI Gate", time: "9:05 PM" },
+    { point: "KR Puram", time: "9:20 PM" },
+    { point: "Hoskote", time: "9:45 PM" },
+  ],
+  trustLine: "Safe Journey • Comfortable Travel • Hassle-Free Darshan",
+  itinerarySummary: "Night Departure (8:00 PM) → Morning Arrival & Fresh-Up → Sheegra Darshan → Padmavati Darshan → Return by 9:00 PM Next Day",
+  gallery: [
+    {
+      id: "bus-front",
+      title: "Balaji Luxury Volvo Coach",
+      subtitle: "Volvo Multi-Axle Tourist Bus",
+      image: "/images/balaji_volvo_front.jpg",
+      tag: "Official Balaji Fleet",
+    },
+    {
+      id: "bus-road",
+      title: "On the Road Journey",
+      subtitle: "Bangalore to Tirupati Highway",
+      image: "/images/balaji_volvo_highway.jpg",
+      tag: "Smooth Highway Ride",
+    },
+    {
+      id: "bus-sleeper",
+      title: "Comfortable Sleeper & Seater",
+      subtitle: "Spacious Reclining A/C Travel",
+      image: "/images/volvo_sleeper_scenic.jpg",
+      tag: "Elder & Family Friendly",
+    },
+  ],
+};
+

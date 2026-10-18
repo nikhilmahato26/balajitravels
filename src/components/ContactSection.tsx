@@ -14,7 +14,7 @@ export const ContactSection: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const getWhatsAppMessage = () => {
-    const text = `*Travel Enquiry - BTP*
+    const text = `*Travel Enquiry - Balaji Trip*
 • Name: ${name || 'Traveler'}
 • Phone: ${phone || 'Not provided'}
 • Service: ${service}
@@ -42,7 +42,7 @@ Location: Bangalore, Karnataka, India`;
           <div className="section-eyebrow">
             <span>Enquire Today</span>
           </div>
-          <h2 className="section-title">CONTACT BTP</h2>
+          <h2 className="section-title">CONTACT BALAJI TRIP</h2>
           <p className="section-subtitle">
             Get in touch to check vehicle availability and discuss your travel requirements in Bangalore and beyond.
           </p>
@@ -114,7 +114,7 @@ Location: Bangalore, Karnataka, India`;
             {submitted ? (
               <div className="form-success-state">
                 <CheckCircle2 size={52} className="success-check-icon" />
-                <h3>Thank You for Contacting BTP!</h3>
+                <h3>Thank You for Contacting Balaji Trip!</h3>
                 <p>
                   We have received your enquiry for <strong>{vehicle}</strong> ({service}). Our team will reach out to you shortly at <strong>{phone || 'your phone number'}</strong>.
                 </p>
@@ -177,6 +177,7 @@ Location: Bangalore, Karnataka, India`;
                       value={service}
                       onChange={(e) => setService(e.target.value)}
                     >
+                      <option value="Tirupati Darshan Package">Tirupati Darshan Package (Daily Volvo / Sleeper)</option>
                       <option value="Bangalore Sightseeing">Bangalore Sightseeing</option>
                       <option value="Outstation Travel">Outstation Travel</option>
                       <option value="Family Travel">Family Travel</option>
@@ -194,6 +195,7 @@ Location: Bangalore, Karnataka, India`;
                       onChange={(e) => setVehicle(e.target.value)}
                     >
                       <option value="Any Available Vehicle">Any Available Vehicle</option>
+                      <option value="Luxury Volvo / AC Sleeper Bus">Luxury Volvo / AC Sleeper Bus</option>
                       {vehicles.map((v) => (
                         <option key={v.id} value={v.name}>
                           {v.name}

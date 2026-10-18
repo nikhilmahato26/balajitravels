@@ -36,7 +36,7 @@ export const BookingWidget: React.FC<BookingWidgetProps> = () => {
   };
 
   const generateWhatsAppMessage = () => {
-    const text = `*New Travel Enquiry - BTP*
+    const text = `*New Travel Enquiry - Balaji Trip*
 • Service: ${tripType}
 • Pickup: ${pickup || 'Bangalore'}
 • Destination / Plan: ${destination}

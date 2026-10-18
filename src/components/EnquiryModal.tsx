@@ -51,7 +51,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({
   if (!isOpen) return null;
 
   const getWhatsAppMessage = () => {
-    const text = `*New Travel Enquiry - BTP*
+    const text = `*New Travel Enquiry - Balaji Trip*
 • Name: ${name || 'Traveler'}
 • Phone: ${phone || 'Not provided'}
 • Service: ${service}
@@ -113,7 +113,7 @@ Location: Bangalore, Karnataka, India`;
                 <div className="modal-logo-badge">
                   <img
                     src="/images/logo.png"
-                    alt="BTP Logo"
+                    alt="Balaji Trip Logo"
                     className="modal-logo-img"
                   />
                 </div>
@@ -168,6 +168,7 @@ Location: Bangalore, Karnataka, India`;
                     onChange={(e) => setVehicle(e.target.value)}
                   >
                     <option value="Any Available Vehicle">Any Available Vehicle</option>
+                    <option value="Luxury Volvo / AC Sleeper Bus">Luxury Volvo / AC Sleeper Bus</option>
                     {vehicles.map((v) => (
                       <option key={v.id} value={v.name}>
                         {v.name} ({v.category})
@@ -186,6 +187,7 @@ Location: Bangalore, Karnataka, India`;
                     value={service}
                     onChange={(e) => setService(e.target.value)}
                   >
+                    <option value="Tirupati Darshan Package">Tirupati Darshan Package (Daily Volvo / Sleeper)</option>
                     <option value="Bangalore Sightseeing">Bangalore Sightseeing</option>
                     <option value="Outstation Travel">Outstation Travel</option>
                     <option value="Family Travel">Family Travel</option>
